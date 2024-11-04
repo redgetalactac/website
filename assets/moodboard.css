@@ -40,14 +40,33 @@ hr::after {
     top: -13px;
 }
 
-.content span {
-    margin-top: 2rem;
+.content p {
+    margin-top: 1.5rem;
+}
+
+.content li{
+    
 }
 
 .mood-container {
     margin: auto;
-    margin-top: 4rem;
-    height: 80vw;
+    margin-top: 1rem;
     background-color: wheat;
     opacity: 100%;
-  }
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 80vw;
+}
+
+.outfit-section {
+    margin: 0.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly
+}
+
+.outfit-section img {
+    width: 35vw;
+
+
+}
