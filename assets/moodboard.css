@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-size: 16px;
+    font-family: "Bitter", serif;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     text-align: center;
-    font-family: "Bitter", serif;
+
 }
 
 h1 {
@@ -40,22 +41,39 @@ hr::after {
     top: -13px;
 }
 
+.content p, li{
+    font-size: 1.2rem;
+    text-align:left;
+    list-style-position: inside;
+}
+
 .content p {
     margin-top: 1.5rem;
 }
 
-.content li{
-    
+.content span{
+    font-size: 2rem;
+    font-weight: 300;
+
 }
 
 .mood-container {
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     background-color: wheat;
     opacity: 100%;
     display: flex;
     flex-flow: column wrap;
     min-height: 80vw;
+    border-radius: 1.5rem;
+}
+
+.mood-container h2{
+    font-size: 8vw;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    text-wrap: nowrap;
 }
 
 .outfit-section {
@@ -67,6 +85,18 @@ hr::after {
 
 .outfit-section img {
     width: 35vw;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
 
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.footer span{
+    margin: 0 0.4rem;
 }
