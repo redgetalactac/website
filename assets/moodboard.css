@@ -77,14 +77,18 @@ hr::after {
 }
 
 .outfit-section {
-    margin: 0.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.outfit-section .row {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly
 }
 
 .outfit-section img {
-    width: 35vw;
+    width: 25vw;
     padding: 0.5rem;
     border-radius: 1rem;
 }
@@ -93,8 +97,8 @@ hr::after {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .footer span{
