@@ -82,15 +82,16 @@ hr::after {
     text-wrap: wrap;
 }
 
-.row {
-    display: flex;
-    flex-flow: row wrap;
-}
 
 .outfit-section {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+}
+
+.outfit-section row {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .outfit-section img {
@@ -103,6 +104,11 @@ hr::after {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+}
+
+.piece-section row {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .piece-section img{
