@@ -74,10 +74,11 @@ hr::after {
     font-weight: 300;
     letter-spacing: 0.3rem;
     text-wrap: nowrap;
+    margin-bottom: 1rem;
 }
 
 .mood-container p {
-    font-size: 2vw;
+    font-size: 1.2rem;
     text-align: center;
     text-wrap: wrap;
 }
@@ -87,6 +88,7 @@ hr::after {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    margin-top: 1rem;
 }
 
 .outfit-section row {
@@ -95,7 +97,7 @@ hr::after {
 }
 
 .outfit-section img {
-    width: 25vw;
+    width: 20vw;
     padding: 0.5rem;
     border-radius: 1rem;
 }
@@ -112,7 +114,7 @@ hr::after {
 }
 
 .piece-section img{
-    width: 25vw;
+    width: 20vw;
     padding: 0.5rem;
     border-radius: 1rem;
 }
